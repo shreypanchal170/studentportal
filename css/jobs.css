@@ -1,0 +1,55 @@
+.profile-container{
+  display: inline-block;
+  font-family: 'Ropa Sans';
+  width: 100%;
+  height: 100%;
+  margin-top: 2%;
+  border: 1px solid red;
+}
+.profile-image{
+	width: 10%;
+	max-height: 120px;
+	border:1px solid yellow;
+	margin:0.5%;
+	float:left;
+}
+.profile-ul{
+	margin:2% 2% 2% 12%;
+	border: 1px solid green;
+}
+.profile-li{
+	margin:1%;
+}
+.edit-button{
+	float:right;
+	margin:1%;
+	padding:1%;
+	width:15%;
+}
+.hide-list{
+	display:none;
+}
+.hide-list li {
+	margin:2%;
+}
+.edit-edit-button{
+	float:right;
+	margin:1%;
+	padding:1%;
+	width:10%;
+}
+.edu-ul{
+	border: 1px solid green;
+	margin: 2%;
+}
+.ski-ul{
+	border: 1px solid green;
+	margin: 2%;
+}
+.int-ul{
+	border: 1px solid green;
+	margin: 2%;
+}
+.sorter{
+	margin:2%;
+}

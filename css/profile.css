@@ -1,0 +1,150 @@
+.profile-container{
+  display: block;
+  font-family: helvetica;
+  width: 100%;
+}
+
+.profile-container > div{
+	border:1px solid rgba(0,0,0,0.2);
+	border-top:none;
+	box-shadow: 0px 1px 4px rgba(0,0,0,0.3);
+	background-color: rgb(250,250,250);
+	margin:20px auto;
+}
+
+.profile-image{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	margin:0.5%;
+	border:3px solid white;
+	box-shadow: 1px 2px 3px rgba(100,100,100,0.5);
+}
+
+div.info-box{
+	max-height: 400px;
+}
+
+img#pro-timeline{
+	width: 100%;
+	max-height: 200px;
+	box-shadow: 0px 2px 3px rgba(0,0,0,0.3);
+}
+
+div.pro-title{
+	position: relative;
+	transform: translateY(-40%);
+}
+
+p#pro-name{
+	color: black;
+	font-size: 28px;
+	font-family: helvetica;
+	padding: 8px;
+}
+
+span.pro-detail{
+	font-size: 16px;
+	opacity: 0.8;
+}
+
+span#number{
+	font-size: 14px;
+}
+
+.pro-education h1, .pro-skill h1, .pro-interest h1{
+	font-family: 'Ropa Sans';
+	color: white;
+	background-color: #16b980;
+	border:none;
+	padding: 10px 20px;
+	box-shadow: 0px 2px 3px rgba(0,0,0,0.3);
+	margin:0;
+}
+
+button.edit-button{
+	padding:1%;
+	width: 80px;
+}
+
+button.add-button{
+	float: right;
+	padding: 0.5% 1%;
+	border:1px solid #16b980;
+	background-color: white;
+	color: #16b980;
+	font-weight: bolder;
+}
+
+button.add-button:hover{
+	background-color: #1AbC88;
+	color:white;
+	opacity: 1;
+	border: 2px solid white;
+}
+
+
+button#cancel-edu{
+	background-color: grey;
+}
+
+.pro-body{
+	padding: 20px;
+}
+
+.pro-body form{
+	width: 50%;
+	display: block;
+	background-color: white;
+	box-shadow: 1px 2px 5px rgba(0,0,0,0.3);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.pro-body input, select{
+	width: 90%;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 3px;
+	border:none;
+	box-shadow: 0px 0px 1px grey;
+}
+
+@media only screen and (max-width: 768px){
+	.pro-body form{
+		width: 100%;
+	}
+	.pro-body input,select{
+		width: 95%;
+	}
+	.profile-image{
+		height: 100px;
+		width: 100px;
+	}
+	div.info-box{
+		max-height: 350px;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	div.info-box{
+		max-height: 300px;
+	}	
+}
+
+.pro-body select{
+	padding: 8px;
+	opacity: 0.8;
+}
+
+.pro-body ul li{
+	background-color: rgb(245,245,245);
+	max-width: auto;
+	margin:15px 0px;
+	padding: 10px 20px;
+	border: 1px solid rgb(235,235,235);
+	border-left: 2px solid green;
+}
+
+
+

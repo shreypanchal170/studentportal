@@ -1,0 +1,110 @@
+    
+    
+  <style type="text/css">
+      
+.firstline {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.secondline{
+  text-align: center;
+  font-size: 8px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.thirdline{
+  text-align: center;
+  font-size: 8px;
+  font-weight: bolder;
+  text-transform: uppercase;
+
+}
+
+ </style>   
+<div class="col-md-12" style="margin-top: 40px">
+  <div class="firstline">Invoice</div>
+  <div class="secondline">Dental Clinic</div>
+  <div class="thirdline">201 Tower St. Tel: 9677701</div>
+</div>
+ <hr>
+ <table>
+     <tr>
+         <td><table class="table-client">
+    <tr>
+      <td>Client Name</td>
+      <td> SOURCECODE, JANOBE E</td>
+    </tr>
+    <!-- <tr>
+      <td>Company</td>
+      <td><br />
+<b>Notice</b>:  Undefined variable: company in <b>C:\xampp\htdocs\dentalclinic\invoices\export.php</b> on line <b>100</b><br />
+</td>
+    </tr>
+    <tr>
+      <td>Address</td>
+      <td> <br />
+<b>Notice</b>:  Undefined variable: address in <b>C:\xampp\htdocs\dentalclinic\invoices\export.php</b> on line <b>104</b><br />
+</td>
+    </tr>
+    <tr>
+      <td>Phone #</td>
+      <td align="left"><br />
+<b>Notice</b>:  Undefined variable: phone in <b>C:\xampp\htdocs\dentalclinic\invoices\export.php</b> on line <b>108</b><br />
+</td>
+    </tr> -->
+  </table> </td>  
+         <td><table class="table-client" >
+    <tr>
+      <td colspan="2">Invoice Number</td>
+      <td> INV_071</td>
+    </tr>
+    <tr>
+      <td colspan="2">Date Invoiced</td>
+      <td>02/22/2021</td>
+    </tr>
+    <tr>
+      <td colspan="2">Due Date</td>
+      <td> 02/22/2021</td>
+    </tr> 
+  </table>  </td>
+     </tr>
+ </table> 
+
+    
+  <table id="table_search"  border="1" class="table table-bordered table-hover table-responsive e"  style="font-size:12px;" cellspacing="0" > 
+            <thead>   
+            <th width="12%">Tooth Number</th>  
+            <th width="90%">Services</th> 
+            <th width="10%">Price</th>  
+            <!-- <th width="15%">Line Total</th>  -->
+        </thead>
+        <tbody> 
+
+        <tr>  
+                        <td>3</td> 
+                        <td>Pasta</td>
+                        <td>PHP 800.00 </td>  
+                        
+                     </tr>        
+            </tbody>
+        </table>  
+
+       <table class="table-summary">
+ 
+                <tr> 
+                    <td colspan=""></td>
+                    <td colspan="">Total Amount</td>
+                    <td class="right">PHP <span style="color: red;font-size:25px;">800.00 </span> </td>
+                </tr> 
+            </table>
+
+             <hr> 
+<div class="container">
+  <div style="text-transform: uppercase;text-align: center;font-size: 12px">Prices includes Dental Clinic where applicable</div>
+  <div style="text-transform: uppercase;text-align: center;font-size: 12px"></div>
+  <div style="text-transform: uppercase;text-align: center;font-size: 12px">Thank you for your business.</div>
+</div> 

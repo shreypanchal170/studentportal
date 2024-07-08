@@ -1,0 +1,219 @@
+.login i#cls{
+	color: white;
+	background-color:#3AC995;
+	border-radius: 25px;
+	border-color: black;
+	padding: 5px;
+}
+
+#login-form{
+	position: fixed;
+	top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+	margin:0 auto; 
+	background:#f8f8f8; 
+	overflow:hidden; 
+	border-radius:7px;
+	display: none;
+	z-index: 999;
+	box-shadow: 0px 0px 10px 999px rgba(0,0,0,0.7);
+}
+
+.form-header{
+	display:table; 
+	clear:both;
+}
+
+.form-header label{
+	font-family: 'calibri';
+	display:block; 
+	cursor:pointer; 
+}
+
+.form-header i{
+	margin-right: 5px;
+	position: relative;
+	top:5px;
+}
+
+.form-header li{
+	margin:0; 
+	line-height:60px; 
+	width:179.5px; 
+	text-align:center; 
+	background:#eee; 
+	font-size:18px; 
+	float:left; 
+}
+
+/*sectiop*/
+.section-out{
+	float:left; 
+	transition:all 600ms ease;
+}
+.section-out:after{
+	content:''; 
+	clear:both; 
+	display:table;
+}
+.section-out section{ 
+	float:left;
+}
+
+.section-out i{
+	margin-right: 0px;
+	position: relative;
+	top:5px;
+}
+
+.login{
+	padding:20px;
+}*
+.ul-list{
+	clear:both; 
+	display:table; 
+	width:100%;
+}
+
+.ul-list:after{
+	content:''; 
+	clear:both; 
+	display:table;
+}
+.ul-list li{ 
+	width: 320px;
+	margin:0 auto; 
+	margin-bottom:10px;
+}
+.input{
+	background:#fff; 
+	transition:all 800ms; 
+	width:257px; 
+	border-radius:3px 0 0 3px; 
+	font-family: 'Ropa Sans', sans-serif; 
+	border:solid 1px #ccc; 
+	border-right:none; 
+	outline:none; 
+	color:#999; 
+	height:38.5px; 
+	line-height:40px; 
+	display:inline-block; 
+	padding-left:10px; 
+	font-size:16px;
+}
+
+.input,.login span.icon{
+	vertical-align:top;
+}
+
+.login span.icon{
+	width:50px; 
+	transition:all 0.8s ease; 
+	text-align:center; 
+	color:#999; 
+	border-radius:0 3px 3px 0; 
+	background:#e8e8e8; 
+	height:37.5px; 
+	line-height:40px; 
+	display:inline-block; 
+	border:solid 1px #ccc; 
+	border-left:none; font-size:16px;
+}
+.input:focus:invalid{
+	border-color:red;
+}
+.input:focus:invalid+.icon{
+	border-color:red;
+}
+.input:focus:valid{
+	border-color:green;
+}
+.input:focus:valid+.icon{
+	border-color:green;
+}
+#check,#check1{
+	top:1px; 
+	position:relative;
+}
+.btn{
+	border:none; 
+	outline:none; 
+	background:#3AC995; 
+	border-bottom:solid 3px #0ba06a; 
+	font-family: 'Ropa Sans', sans-serif; 
+	margin:0 auto; 
+	display:block; 
+	height:38px; 
+	width:100%; 
+	padding:0 10px; 
+	border-radius:3px; 
+	font-size:16px; 
+	color:#FFF;
+	cursor: pointer;
+}
+
+.btn:hover{
+	background:#3AD995; 
+}
+
+.close{
+	background: #ff3a3a;
+	border-bottom:solid 3px #ba0707; 
+}
+
+.close:hover{
+	background: #ff4e4e;
+}
+
+.fb{
+	background-color: #3B5998;
+	border-bottom: solid 3px #223c75;
+}
+
+.fb:hover{
+	background-color: #3865c9;
+}
+
+.fb:visited, .fb:active{
+	background-color: #3865c9;
+}
+
+.form a i.fa{
+	line-height:35px;
+}
+
+.remember{
+	width:50%; 
+	display:inline-block; 
+	clear:both; 
+	font-size:14px;
+}
+
+.remember:nth-child(2){
+	text-align:right;
+}
+
+.remember a{
+	text-decoration:none; 
+	color:#666;
+}
+
+.hide{
+	display:none;
+}
+
+#login:checked~div .form-header li:nth-child(1),#signup:checked~div .form-header li:nth-child(2){
+	background:#e0e0e0;
+}
+
+.login-section, .signup-section{
+	display: none;
+}
+
+#login:checked~div .login-section, #signup:checked~div .signup-section{
+	display: block;
+}
+
+
